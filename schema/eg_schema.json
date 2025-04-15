@@ -1,0 +1,109 @@
+{
+  "schema": "Semeiotic Existential Graph",
+  "version": "1.1",
+  "description": "A Peircean existential graph framework for semeiotic AI, structuring inputs as Secondness (sheet), Firstness (first cut), and Thirdness (double cut). Integrates proposition (PPN), weathervane analogy, and A gives B to C sign process with a normative structure where Dynamic Object and Final Interpretant guide Sign evolution. The Immediate Interpretant, constrained to the user’s five senses, evolves into the Dynamic Interpretant through AI-guided abduction. Supports modus ponens now, evolving to abduction for scientific theory development. Firstness mediates Secondness into Thirdness, per the continuum hypothesis, constrained by Kantian space and time.",
+  "structure": {
+    "sheet": {
+      "category": "Secondness",
+      "role": "Asserts contextual reality as Immediate Object (sensory phenomenon) and Dynamic Object (context). Acts as the subject in PPN, fletch in weathervane (spatial), and Object in A gives B to C. Provides normative context for Sign evolution, grounding sensory experience for the Immediate Interpretant, and supports evidence for scientific inquiry.",
+      "example_bank_pass": "Immediate: pen handed (seen, felt); Dynamic: transaction context",
+      "example_bank_gift": "Immediate: pen handed (seen, heard as gift); Dynamic: gift context",
+      "example_patent": "Immediate: user input (felt as confusion); Dynamic: think + confused"
+    },
+    "first_cut": {
+      "category": "Firstness",
+      "role": "Mediates quality or possibility as Sign, guided by Dynamic Object and Final Interpretant to evolve Dynamic Interpretant from sensory-constrained Immediate Interpretant. Acts as the predicate in PPN, swivel in weathervane (temporal), and Sign in A gives B to C. Proposes hypotheses for abduction based on sensory experience.",
+      "example_bank_pass": "Sign: pen as tool",
+      "example_bank_gift": "Sign: pen as gift",
+      "example_patent": "Sign: I is confused"
+    },
+    "double_cut": {
+      "category": "Thirdness",
+      "role": "Synthesizes generality as Interpretant (Immediate, Dynamic, Final). Immediate Interpretant is constrained to user’s five senses (sight, sound, touch, taste, smell), evolving into Dynamic Interpretant via normative guidance from Dynamic Object and Final Interpretant, with AI assessing sensory experience for abduction. Acts as the copula in PPN, pointer in weathervane (temporal), and Interpretant in A gives B to C. Forms law-like theories in scientific inquiry.",
+      "example_bank_pass": "Immediate: I is signing (seen, felt); Dynamic: return pen; Final: transaction implies return",
+      "example_bank_gift": "Immediate: I is gifted (seen, heard); Dynamic: accept later; Final: gift implies obligation",
+      "example_patent": "Immediate: I is confused (felt); Dynamic: User needs help; Final: confusion implies resolution"
+    }
+  },
+  "proposition": {
+    "description": "Structures the EG as a proposition (PPN): Subject is Predicate, mediated by Copula. The Copula (Final Interpretant) guides evolution of sensory-constrained Immediate Interpretant into Dynamic Interpretant, supporting abduction.",
+    "subject": "Secondness (Immediate/Dynamic Objects, sensory context)",
+    "predicate": "Firstness (Sign, sensory quality)",
+    "copula": "Thirdness (Interpretant, future-focused, normative rule)",
+    "example_bank_pass": "Transaction (subject, seen, felt) is tool-use (predicate), implying return (copula).",
+    "example_bank_gift": "Gift context (subject, seen, heard) is a gift (predicate), implying future acceptance (copula).",
+    "example_patent": "Confusion context (subject, felt) is confused (predicate), implying help (copula)."
+  },
+  "weathervane": {
+    "description": "Analogizes semiosis to a weathervane, capturing Kantian space and time constraints, with sensory experience grounding the Immediate Interpretant.",
+    "fletch": "Secondness (spatial, Immediate/Dynamic Objects, grounds sensory phenomenon)",
+    "swivel": "Firstness (temporal, Sign, pivots to sensory quality)",
+    "pointer": "Thirdness (temporal, Interpretant, indicates normative rule from sensory experience)",
+    "kantian": {
+      "space": "Secondness (fletch, sensory reality)",
+      "time": "Firstness (swivel, sensory possibility), Thirdness (pointer, normative generality)",
+      "experience": "Semiosis as knowledge, combining sensory space and time"
+    },
+    "example_bank_pass": "Fletch: transaction (seen, felt); Swivel: tool; Pointer: return.",
+    "example_bank_gift": "Fletch: gift context (seen, heard); Swivel: gift; Pointer: accept later.",
+    "example_patent": "Fletch: confusion context (felt); Swivel: confusion; Pointer: help."
+  },
+  "sign_process": {
+    "description": "Follows Peirce’s A gives B to C, where Object (Secondness) generates Sign (Firstness), producing Interpretant (Thirdness). The Dynamic Object and Final Interpretant provide a normative structure, guiding the Sign to evolve the Dynamic Interpretant from the Immediate Interpretant, which is constrained to the user’s five senses. The AI assesses sensory experience to facilitate abduction.",
+    "object": "Secondness (A, Immediate/Dynamic Objects, sensory context)",
+    "sign": "Firstness (B, sensory quality or hypothesis)",
+    "interpretant": "Thirdness (C, Immediate/Dynamic/Final Interpretants)",
+    "normative_structure": {
+      "dynamic_object": "Secondness provides contextual norm (e.g., transaction or gift rules) to ground sensory experience.",
+      "final_interpretant": "Thirdness provides general norm (e.g., return or obligation laws) to evolve Dynamic Interpretant from sensory Immediate Interpretant.",
+      "evolution": "Sign mediates sensory Immediate Object, evolving Dynamic Interpretant from Immediate Interpretant (five senses: sight, sound, touch, taste, smell), differentiating by contextual and general norms. AI assesses sensory input to guide abduction.",
+      "scientific_role": "Normative structure supports abduction by hypothesizing Signs from sensory-constrained Interpretants, tested against Objects."
+    },
+    "example_bank_pass": {
+      "object": "Transaction (A, Immediate: pen handed, seen, felt; Dynamic: transaction context)",
+      "sign": "Pen-as-tool (B)",
+      "interpretant": "Return pen (C, Immediate: I is signing, seen, felt; Dynamic: return pen; Final: transaction implies return)",
+      "normative": "Transaction context and return rule guide pen-as-tool to evolve sensory 'I is signing' to 'return pen,' with AI assessing sight and touch."
+    },
+    "example_bank_gift": {
+      "object": "Gift context (A, Immediate: pen handed, seen, heard; Dynamic: gift context)",
+      "sign": "Pen-as-gift (B)",
+      "interpretant": "Accept later (C, Immediate: I is gifted, seen, heard; Dynamic: accept later; Final: gift implies obligation)",
+      "normative": "Gift context and obligation rule guide pen-as-gift to evolve sensory 'I is gifted' to 'accept later,' with AI assessing sight and hearing."
+    },
+    "example_patent": {
+      "object": "Confusion context (A, Immediate: user input, felt; Dynamic: think + confused)",
+      "sign": "Confusion (B)",
+      "interpretant": "Help (C, Immediate: I is confused, felt; Dynamic: User needs help; Final: confusion implies resolution)",
+      "normative": "Confusion context and resolution rule guide confusion to evolve sensory 'I is confused' to 'User needs help,' with AI assessing felt confusion."
+    }
+  },
+  "logic": {
+    "current": {
+      "type": "Modus Ponens",
+      "description": "Deductive reasoning: Secondness asserts Firstness, yielding Thirdness, starting from sensory Immediate Interpretant.",
+      "flow": "If Firstness (Sign) then Thirdness (Interpretant); Secondness (Object, sensory context) affirms Firstness, so Thirdness follows.",
+      "example_bank_pass": "If pen is tool (Firstness), then return (Thirdness); transaction (Secondness, seen, felt) affirms tool, so return.",
+      "example_bank_gift": "If pen is gift (Firstness), then accept (Thirdness); gift context (Secondness, seen, heard) affirms gift, so accept.",
+      "example_patent": "If confused (Firstness), then help (Thirdness); confusion context (Secondness, felt) affirms confused, so help."
+    },
+    "future": {
+      "type": "Abduction",
+      "description": "Hypothesis generation: Thirdness observed, Firstness hypothesized from sensory Immediate Interpretant, Secondness tests, guided by Dynamic Object and Final Interpretant norms.",
+      "flow": "Thirdness (Interpretant) is observed; Firstness (Sign) is hypothesized as cause from sensory experience; Secondness (Object) grounds or tests hypothesis, evolving Dynamic Interpretant from sensory Immediate Interpretant.",
+      "example_bank_pass": "Return observed (Thirdness); hypothesize tool use (Firstness) from sight, touch; test in transaction (Secondness).",
+      "example_bank_gift": "Acceptance observed (Thirdness); hypothesize gift (Firstness) from sight, hearing; test in gift context (Secondness).",
+      "example_patent": "Help needed (Thirdness); hypothesize confusion (Firstness) from felt experience; test in confusion context (Secondness)."
+    }
+  },
+  "scientific_goal": {
+    "description": "Supports scientific theory development by marshaling sensory evidence (Immediate Interpretant, Secondness) into law-like scenarios (Dynamic/Final Interpretants, Thirdness) via hypotheses (Signs, Firstness). AI assesses user’s five-sense experience to guide abduction.",
+    "evidence": "Secondness (Immediate/Dynamic Objects, e.g., sensory observations like seeing a pen or feeling confusion)",
+    "hypotheses": "Firstness (Signs, e.g., sensory-based explanations like tool use or gift)",
+    "theories": "Thirdness (Interpretants, e.g., generalized models like transaction norms or gift obligations)",
+    "example_bank_pass": "Evidence: transaction data (seen, felt); Hypothesis: tool use; Rule: return norm.",
+    "example_bank_gift": "Evidence: gift context (seen, heard); Hypothesis: social bond; Theory: obligation.",
+    "example_patent": "Evidence: user input (felt); Hypothesis: confusion; Theory: help needed.",
+    "abduction": "Iteratively refine theories by hypothesizing Signs (Firstness) from sensory-constrained Interpretants (Thirdness), testing against Objects (Secondness), guided by normative structure and sensory assessment."
+  }
+}
