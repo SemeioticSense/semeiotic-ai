@@ -17,8 +17,3 @@ git clone https://github.com/SemeioticSense/semeiotic-ai.git
 cd semeiotic-ai
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-
-from semeiotic_ai import process_input
-output, guidance, _, _ = process_input("The teller gives me a pen as a gift")
-print(guidance)
-
